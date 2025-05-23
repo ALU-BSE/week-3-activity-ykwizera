@@ -1,0 +1,4 @@
+### Get basic info about the GitHub user "octocat"
+GET https://api.github.com/users/octocat
+
+###
