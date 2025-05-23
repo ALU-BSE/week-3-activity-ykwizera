@@ -1,0 +1,22 @@
+
+### Get basic user info
+GET https://api.github.com/users/octocat
+
+###
+
+### List all public repositories for the user
+GET https://api.github.com/users/octocat/repos
+
+###
+
+### Get info about a specific repository
+GET https://api.github.com/repos/octocat/Hello-World
+Accept: application/vnd.github.v3+json
+
+###
+
+### (Optional) Authenticated request using a token (replace YOUR_TOKEN)
+GET https://api.github.com/user/repos
+Authorization: Bearer YOUR_TOKEN
+
+###
